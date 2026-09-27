@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 image = cv2.imread('Girl1.jpg')
 
 # Covert BGR to RGB
-image_rgb = cv2.cvtClor(image, cv2.COLOR_BGR2RGB)
+image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 plt.imshow(image_rgb)
 plt.title('RGB Image')
 plt.show()
